@@ -1,3 +1,11 @@
+/*
+ * File       :Employeedetails.java
+ * Description:Java program to implement inheritance
+ * Author     :Emitta Mathew
+ * Version    :1.0
+ * Date       :13/10/23
+ *              
+ */
 package javalab;
 
 import java.util.Scanner;
@@ -28,8 +36,8 @@ class Employee{
  public void getdetails() {
   System.out.println("enter the name:");
   name=sc.next();
-  System.out.println("enter the address:");
-  address=sc.next();
+  System.out.println("enter the address:");sc.nextLine();
+  address=sc.nextLine();
   System.out.println("enter age:");
   age=sc.nextInt();
   System.out.println("enter phone number:");
@@ -62,8 +70,8 @@ class Officer extends Employee {
 class Manager extends Employee {
  String department;
  public void getdepartment() {
-  System.out.println("enter department:");
-  department=sc.next();
+  System.out.println("enter department:");sc.nextLine();
+  department=sc.nextLine();
  }
  public void printdepartment() {
   System.out.println("Departement:"+department);
