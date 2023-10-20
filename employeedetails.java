@@ -1,15 +1,15 @@
 package javalab;
 
 import java.util.Scanner;
-public class employeedetails {
+public class Employeedetails {
  public static void main(String [] args) {
   Officer officer=new Officer();
   officer.getdetails();
   officer.getsalary();
-  officer.getspecialisation();
+  officer.getspecialization();
   System.out.println("Officer Details:");
   officer.printdetails();
-  officer.printspecialisation();
+  officer.printspecialization();
   Manager manager=new Manager();
   manager.getdetails();
   manager.getdepartment();
@@ -32,7 +32,7 @@ class Employee{
   address=sc.next();
   System.out.println("enter age:");
   age=sc.nextInt();
-  System.out.println("enter pnone number:");
+  System.out.println("enter phone number:");
   phoneNumber=sc.nextLong();
  }
  public void getsalary() {
@@ -49,11 +49,11 @@ class Employee{
 }
 class Officer extends Employee {
  String specialization;
- public void getspecialisation() {
-  System.out.println("enter specialisation:");
+ public void getspecialization() {
+  System.out.println("enter specialization:");
   specialization=sc.next();
  }
- public void printspecialisation() {
+ public void printspecialization() {
   System.out.println("Specialization:"+specialization);
  }
 	
