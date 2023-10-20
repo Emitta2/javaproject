@@ -1,3 +1,11 @@
+/*
+ * File       :abstraction.java
+ * Description:Java program to implement abstraction
+ * Author     :Emitta Mathew
+ * Version    :1.0
+ * Date       :20/10/23
+ *              
+ */
 package javalab;
 
 public class abstraction {
